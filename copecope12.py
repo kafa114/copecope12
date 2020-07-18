@@ -245,5 +245,4 @@ async def on_message(message): # on_message() event : when the bot has recieved 
             embed.add_field(name="해당 닉네임의 소환사가 존재하지 않습니다.", value="소환사 이름을 확인해주세요", inline=False)
             await message.channel.send(embed=embed)
 
-access_a = os.environ["a"]
-client.run(access_a)
+client.run(token)
