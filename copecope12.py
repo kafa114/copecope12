@@ -36,7 +36,7 @@ warnings.filterwarnings(action='ignore')
 bot = commands.Bot(command_prefix='!')
 
 opggsummonersearch = 'https://www.op.gg/summoner/userName='
-token = "NzMxODcyNjkxODMzMDEyMzA0.Xw6Vxg.Ag8dlbl4BRf9OOfU17g1BnnT2ns"
+token = 'NzMxODcyNjkxODMzMDEyMzA0.Xw6Vxg.Ag8dlbl4BRf9OOfU17g1BnnT2ns'
 
 '''
 Simple Introduction about asyncio
@@ -245,4 +245,4 @@ async def on_message(message): # on_message() event : when the bot has recieved 
             embed.add_field(name="해당 닉네임의 소환사가 존재하지 않습니다.", value="소환사 이름을 확인해주세요", inline=False)
             await message.channel.send(embed=embed)
 
-client.run(token)
+client.run("NzMxODcyNjkxODMzMDEyMzA0.Xw6Vxg.Ag8dlbl4BRf9OOfU17g1BnnT2ns")
