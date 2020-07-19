@@ -4,6 +4,13 @@ import asyncio
 client = discord.Client()
 
 @client.event
+async def on_ready():
+    print('봇이 로그인 하였습니다.')
+    print(' ')
+    print('닉네임 : {}'.format(client.user.name))
+    print('아이디 : {}'.format(client.user.id))
+
+@client.event
 async def on_message(message):
     if message.content.startswith('/eval'):
         try:
