@@ -20,4 +20,4 @@ async def on_message(message):
         except:
             await message.channel.send("오류가 발생했습니다.")
 
-client.run("NzMxODcyNjkxODMzMDEyMzA0.Xw6Vxg.Ag8dlbl4BRf9OOfU17g1BnnT2ns")
+client.run('NzMxODcyNjkxODMzMDEyMzA0.Xw6Vxg.Ag8dlbl4BRf9OOfU17g1BnnT2ns')
